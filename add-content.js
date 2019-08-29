@@ -1,19 +1,22 @@
 function myFunction(){
 
     var name = prompt ('What\'s your name?');
-
     var answer = confirm  ('Do you want to save whales?');
     var output = 'Hello ' + name + '!';
     var output2 = 'Wow ' + name + '...';
 
-    } else(answer) {
+    if(answer) {
         output = output +  ' Thank you for your support!'
-    } if else { 
+    } else { 
         output = output2 + ' A whale just died because of you...'
     }
     return output;
 }
 
-//var functionOutput = myFunction(); 
+var showOrder = function() {
+    var order = prompt('You really care?');
+    var item, quantity;
+    var items = '';
 
-//document.write(functionOutput); 
+while
+}
