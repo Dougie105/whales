@@ -1,11 +1,18 @@
-var name = prompt ('What\'s your name?');
-var answer = confirm('Do you want to save whales?');
-var output = 'Hello,' + name + '!';
+function myFunction(){
 
-if (answer) {
-    output = output +  ' Thank you for your support!'
-} else {
-    output = output + ' A whale just died because of you...'
+    var name = prompt ('What\'s your name?');
+    var answer = confirm  ('Do you want to save whales?');
+    var output = 'Hello ' + name + '!';
+    var output2 = 'Wow ' + name + '...';
+
+    if (answer) {
+        output = output +  ' Thank you for your support!'
+    } else { 
+        output = output2 + ' A whale just died because of you...'
+    }
+    return output;
 }
 
-document.write(output);
+//var functionOutput = myFunction(); 
+
+//document.write(functionOutput); 
