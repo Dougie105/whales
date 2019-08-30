@@ -11,7 +11,7 @@ function myFunction(){
         output = output +  ' Thank you for your support!'
     } else { 
         output = output2 + ' A whale just died because of you...'
-    }
+    } 
     return output;
 }
 

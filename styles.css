@@ -29,9 +29,10 @@ article {
     height: 600px;
     width: 320px;
     color: hsla(37, 100%, 48%, .75);
-
-
-    #welcome-message {
-        font-family: Cambria;
-        font-size: 18px;
+}
+    #sloth {
+        display: inline-block;
+        position: relative;
+        height: 5px;
+        width: 5px;
     }
