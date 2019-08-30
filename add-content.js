@@ -1,3 +1,5 @@
+//first popup
+
 function myFunction(){
 
     var name = prompt ('What\'s your name?');
@@ -13,23 +15,13 @@ function myFunction(){
     return output;
 }
 
-function likeWhales() {
-    var txt;
-    var r = confirm("Are you sure?");
-    if (r == true) {
-        txt = "Dope!";
-    } else {
-        txt = "Whatever...";
-    }
+//Happy Whales
 
-    return txt;
-}
 function giveNumber() {
-    var whales = '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/0703_SD_Breaching02.jpg/300px-0703_SD_Breaching02.jpg">'
+    var whale = '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/0703_SD_Breaching02.jpg/300px-0703_SD_Breaching02.jpg">';
     var quantity = prompt("How many whales do you want to save?");
     quantity = Number(quantity);
     var whales = "";
-
 
 while (isNaN(quantity)) {
     quantity = prompt("How many whales?");
