@@ -12,3 +12,32 @@ function myFunction(){
     }
     return output;
 }
+
+function likeWhales() {
+    var txt;
+    var r = confirm("Are you sure?");
+    if (r == true) {
+        txt = "Dope!";
+    } else {
+        txt = "Whatever...";
+    }
+
+    return txt;
+}
+function giveNumber() {
+    var whales = '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/0703_SD_Breaching02.jpg/300px-0703_SD_Breaching02.jpg">'
+    var quantity = prompt("How many whales do you want to save?");
+    quantity = Number(quantity);
+    var whales = "";
+
+
+while (isNaN(quantity)) {
+    quantity = prompt("How many whales?");
+    quantity = Number(quantity);
+}
+
+for (var i = 0; i < quantity; i++) {
+    whales = whales + whale;
+}
+    return whales;
+ }
