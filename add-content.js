@@ -12,11 +12,3 @@ function myFunction(){
     }
     return output;
 }
-
-var showOrder = function() {
-    var order = prompt('You really care?');
-    var item, quantity;
-    var items = '';
-
-while
-}
