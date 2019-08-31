@@ -1,12 +1,12 @@
 //first popup
 
 function myFunction(){
-
+    
     var name = prompt ('What\'s your name?');
     var answer = confirm  ('Do you want to save whales?');
     var output = 'Hello ' + name + '!';
     var output2 = 'Wow ' + name + '...';
-
+    
     if(answer) {
         output = output +  ' Thank you for your support!'
     } else { 
@@ -22,14 +22,16 @@ function giveNumber() {
     var quantity = prompt("How many whales do you want to save?");
     quantity = Number(quantity);
     var whales = "";
-
-while (isNaN(quantity)) {
-    quantity = prompt("How many whales?");
-    quantity = Number(quantity);
+    
+    while (isNaN(quantity)) {
+        quantity = prompt("How many whales?");
+        quantity = Number(quantity);
+        
+    }
+    
+    for (var i = 0; i < quantity; i++) {
+        whales = whales + whale;
+    }
+    return whales --;
 }
 
-for (var i = 0; i < quantity; i++) {
-    whales = whales + whale;
-}
-    return whales;
- }
